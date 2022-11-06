@@ -12,6 +12,8 @@ v
 library(tidyr)
 d<- c(3,5,6,7)
 d
+## append to existing vector 
+d<- append(d, c(45,55,65,90))
 length(d)
 d+3 #vectorization
 d*2
