@@ -58,14 +58,14 @@ table(is.na(z)) #gives no of true or false
 #or can do it by
 sum(is.na(z)) #no of NA present in the vector
 a<- 0/0
-is.nan(a)
+is.nan(a)  -- gives nan i.e Not defined (0/0, infi/infi)
 d<- c(0/0,1/2,1/0,0/1,3,5,1/0,5/0,NA)
 d
 table(is.nan(d))
 is.na(d)
 is.infinite(d)
 table(is.infinite(d))
-m<- matrix(c(9,5,6,7),2,3)
+m<- matrix(c(9,5,6,7),2,3) ---------  number of row or columns( here 3 ) should be a multiple or submultiple of the data length(9,5,6,7) so it can be m<- matrix(c(9,5,6,7),2,12)
 m
 name<- c("a","b","c","d")
 age<-c(34,45,56)
