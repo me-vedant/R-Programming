@@ -1,3 +1,7 @@
+***NOTE** clear R environment 
+rm(list = ls(all.names = TRUE)) #will clear all objects includes hidden objects.
+gc() #free up memrory and report the memory usage.
+******
 w <- 4
 y<- "s"
 h<- w**2
